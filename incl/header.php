@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>modulus</title>
 
+    <link rel="stylesheet" type="text/css" href="/modulus/rs-plugin/css/settings.min.css" media="screen">
     <link rel="stylesheet" href="/modulus/style/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/modulus/style/icons-fonts.css" >	
+    <link rel='stylesheet' href="/modulus/style/animate.min.css">
     <link rel="stylesheet" href="/modulus/style/style.css">
 </head>
 <body>
@@ -18,9 +21,9 @@
                 <a href="/modulus/index.php"><img src="/modulus/uploads/Logo Modulud.png" alt="Logo Modulus" class="logo_Site_header"></a>
             </div>
             <div class="burger_menu">
-                <span class="burgerBar1">|</span>
-                <span class="burgerBar2">|</span>
-                <span class="burgerBar3">|</span>
+                <div class="burgerBar1">|</div>
+                <div class="burgerBar2">|</div>
+                <div class="burgerBar3">|</div>
             </div>
             <nav class="nav_menu">
                 <ul>
