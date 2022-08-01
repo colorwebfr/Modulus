@@ -1,0 +1,36 @@
+/* Reglage géneral */
+* {box-sizing: border-box;margin: 0;}
+html {overflow-x: hidden;}
+body {padding-left: 0;padding-right: 0;background-color: rgb(14, 14, 121);}
+img {max-width: 100%;}
+
+/* Menu */
+header .container {background: #ffffff;padding: 15px;}
+header .contain_header {display: flex;justify-content: space-between;align-items: center;}
+header a, header a:hover, header i {text-decoration: none;text-transform: uppercase;margin: 0px 10px 0px 10px}
+header li {list-style-type: none;}
+header nav.nav_menu {width: 70%;}
+header .Block_logo_Site_header {width: 30%;}
+header a#lang_UK, header a#lang_ES {margin: 3px;}
+img.logo_Site_header {width: 194px;}
+
+@media only screen and (min-width: 1025px){
+    /* Menu Desktop */
+    header nav.nav_menu li.level_0 {display: inline-block;}
+    header {position: fixed;width: 100%;margin-top: 30px;}
+    header input#Search_Widget {display: none;    position: absolute;left: -154px;top: 36px;padding: 5px 15px;}
+    header nav.nav_menu {text-align: right;}
+    header nav ul {margin-bottom: 0;}
+    header #loop_search {cursor: pointer;}
+    header li#loop_search {position: relative;}
+    header #loop_search.Show_search>input#Search_Widget{display: block;}
+    header .burger_menu {display: none;}
+}
+
+@media only screen and (max-width: 1024px){
+    header nav.nav_menu {width: 30%;position: absolute;background: #ffffff;top: 62px;right: -100%;transition: .3s ease-in-out;}
+    header {background: #ffffff;}
+    header .Block_logo_Site_header {width: 24%;float: left;}
+    header .contain_header {display: block;}
+    header .burger_menu {float: right;}
+}
