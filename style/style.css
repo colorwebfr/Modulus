@@ -19,7 +19,7 @@ header .burger_menu {cursor: pointer;}
 @media only screen and (min-width: 1025px){
     /* Menu Desktop */
     header nav.nav_menu li.level_0 {display: inline-block;}
-    header {position: fixed;width: 100%;margin-top: 30px;}
+    header {position: fixed;width: 100%;margin-top: 30px;top: 0;}
     header input#Search_Widget {display: none;    position: absolute;left: -154px;top: 48px;padding: 5px 15px;}
     header nav.nav_menu {text-align: right;}
     header nav ul {margin-bottom: 0;}
@@ -28,6 +28,8 @@ header .burger_menu {cursor: pointer;}
     header #loop_search.Show_search>input#Search_Widget{display: block;}
     header .burger_menu {display: none;}
     header .container {height: 75px;}
+    /* Home page */
+    .main_home {margin-top: 105px;}
 }
 
 @media only screen and (max-width: 1024px){
