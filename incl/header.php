@@ -35,7 +35,8 @@
                     <li class="level_0"><a href="group.php">Group</a></li>
                     <li class="level_0"><a href="contact.php">Contact</a></li>
                     <li class="level_0"><a id="lang_UK" href="#">UK</a>/<a id="lang_ES" href="#">ES</a></li>
-                    <li class="level_0" id="loop_search"><i class="fa-solid fa-magnifying-glass"></i><input id="Search_Widget" type="text" placeholder="Recherche ..."></li>
+                    <li class="level_0" id="loop_search"><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><input id="Search_Widget" type="text" placeholder="Recherche ..."></li>
                 </ul>
             </nav>
         </div>

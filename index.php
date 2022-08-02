@@ -61,7 +61,7 @@
 			</div>
 		</section>
 		<!-- END SECTION Welcome to Modulus -->
-        <!-- Section Better Play -->
+        <!-- Section Better Player -->
         <div class="page-section Better_Player">
 			<div class="container-fluid">
 				<div class="row">
@@ -70,7 +70,7 @@
 							<h3 class="title-fs-40">BETTER PLAYER<br>
 								<span class="light_title">EXPERIENCES</span>
 							</h3>
-							<div class="line-3-70-stick-W"></div>
+							<div class="line-3-70-stick-W m-stick"></div>
 							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
@@ -92,7 +92,7 @@
 							<h3 class="title-fs-40">GROW<br>
 								<span class="light_title">REVENUES</span>
 							</h3>
-							<div class="line-3-70-stick-W"></div>
+							<div class="line-3-70-stick-W m-stick"></div>
 							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
@@ -114,7 +114,7 @@
 							<h3 class="title-fs-40">MORE VALUE<br>
 								<span class="light_title">FROM DATA</span>
 							</h3>
-							<div class="line-3-70-stick-W"></div>
+							<div class="line-3-70-stick-W m-stick"></div>
 							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
@@ -136,7 +136,7 @@
 							<h3 class="title-fs-40">CUSTOMER<br>
 								<span class="light_title">SUPPORT</span>
 							</h3>
-							<div class="line-3-70-stick-W"></div>
+							<div class="line-3-70-stick-W m-stick"></div>
 							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>

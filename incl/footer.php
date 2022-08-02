@@ -30,40 +30,44 @@
                 </div>
                 <div class="footer-2-text-cont">
                   <address>
-                    555 California str, Suite 100<br>
-                    San&nbsp;Francisco, CA 94107
+                    24 Bd Princesse Charlotte,<br>
+                    98000 Monaco
                   </address>
                 </div>
                 <div class="footer-2-text-cont">
-                  1-800-312-2121<br>
-                  1-800-310-1010
-                </div>
-                <div class="footer-2-text-cont">
-                  <a class="a-text" href="mailto:info@haswell.com">info@haswell.com</a>
+                  Shelton Street,<br>
+                  London England GB
                 </div>
               </div>
               
               <div class="col-md-3 col-sm-3 widget">
                 <h4>NAVIGATE</h4>
-                <ul class="links-list bold a-text-cont">
-                  <li><a href="index.html">HOME</a></li>
-                  <li><a href="grid-system.html">GRID SYSTEM</a></li>
-                  <li><a href="services.html">SERVICES</a></li>
-                  <li><a href="index-portfolio.html">PORTFOLIO</a></li>
-                  <li><a href="index-blog.html">BLOG</a></li>
-                  <li><a href="index-shop.html">SHOP</a></li>
-                  <li><a href="intro.html">PAGES</a></li>
+                <h5>BEST CHOICE</h5>
+                <ul class="a-text-cont">
+                  <li><a href="index.html">Better Experiences</a></li>
+                  <li><a href="grid-system.html">More Revenues</a></li>
+                  <li><a href="services.html">Powerful Data</a></li>
+                  <li><a href="index-portfolio.html">Support for your Business</a></li>
                 </ul>
+                <h5>PRODUCTS</h5>
+                <ul class="a-text-cont">
+                  <li><a href="index.html">Systems</a></li>
+                  <li><a href="grid-system.html">Slots Cabinets</a></li>
+                </ul>
+                <h5>GROUP</h5>
               </div>
               
               <div class="col-md-3 col-sm-3 widget">
-                <h4>ABOUT US</h4>
-                <ul class="links-list a-text-cont">
-                  <li><a href="about-us.html">COMPANY</a></li>
-                  <li><a href="services.html">WHAT WE DO</a></li>
-                  <li><a href="https://help.market.envato.com/hc/en-us">HELP CENTER</a></li>
-                  <li><a href="http://themeforest.net/legal/market">TERMS OF SERVICE</a></li>
-                  <li><a href="contact.html">CONTACT</a></li>
+                <h4>CONTACT</h4>
+                <h5 class="foot_dark">SALE DEPARTMENT</h5>
+                <ul class="a-text-cont">
+                  <li><a href="mailto:fivos.polymniou@modulusgroup.eu">fivos.polymniou@modulusgroup.eu</a></li>
+                  <li><a href="tel:+XXXXXXXXXXX">+ XXX XX XX XXXX</a></li>
+                </ul>
+                <h5 class="foot_dark">TECHNICAL SUPPORT</h5>
+                <ul class="a-text-cont">
+                  <li><a href="mailto:support@modulusgroup.eu">support@modulusgroup.eu</a></li>
+                  <li><a href="tel:+37797974600">+ 377 97 97 4600</a></li>
                 </ul>
               </div>
               
@@ -71,26 +75,20 @@
                 <h4>RECENT POSTS</h4>
                 <div id="post-list-footer">
 
-                  <div class="post-prev-title">
-                    <h3><a class="a-text" href="blog-single-sidebar-right.html">New trends in web design</a></h3>
-                  </div>
-                  <div class="post-prev-info">
-                    Jule 10
-                  </div>
-                   
-                  <div class="post-prev-title">
-                    <h3><a class="a-text" href="blog-single-sidebar-right.html">The sound of life</a></h3>
-                  </div>
-                  <div class="post-prev-info">
-                    October 10
-                  </div>
-                   
-                  <div class="post-prev-title">
-                    <h3><a class="a-text" href="blog-single-sidebar-right.html">Time for minimalism</a></h3>
-                  </div>
-                  <div class="post-prev-info">
-                     September 21
-                  </div>
+                <h5>MAY 20, 2015</h5>
+                <ul class="a-text-cont">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                </ul>
+
+                <h5>MAY 20, 2015</h5>
+                <ul class="a-text-cont">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                </ul>
+
+                <h5>MAY 20, 2015</h5>
+                <ul class="a-text-cont">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                </ul>
 
                 </div>                  
               </div>
@@ -101,14 +99,12 @@
               <div class="footer-2-soc-a right">
                 <a href="https://1.envato.market/a1gQR" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
                 <a href="https://1.envato.market/a1gQR" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="https://1.envato.market/a1gQR" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
                 <a href="https://1.envato.market/a1gQR" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://dribbble.com/abcgomel" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a>
               </div>
               
               <!-- Copyright -->
               <div class="left">
-                <a class="footer-2-copy" href="https://1.envato.market/a1gQR" target="_blank">© HASWELL 2020</a>
+                <p>© MODULUS - 2022 | Par <a class="footer-2-copy" href="https://www.base-sud.com" target="_blank">Base Sud</a></p>
               </div>
               
 
