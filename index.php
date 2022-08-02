@@ -71,8 +71,7 @@
 								<span class="light_title">EXPERIENCES</span>
 							</h3>
 							<div class="line-3-70-stick-W"></div>
-							<div class="fes2-text-cont">Sed ut perspiciatis unde omnis iste nat eror acus  antium que. Asperiores, ea velit enim labore doloribus.
-                            </div>
+							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
 					<div class="col-md-6" style="background-image:url('/modulus/uploads/modulus_casino_system_better_player_experience_slot_machine.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
@@ -94,8 +93,7 @@
 								<span class="light_title">REVENUES</span>
 							</h3>
 							<div class="line-3-70-stick-W"></div>
-							<div class="fes2-text-cont">Sed ut perspiciatis unde omnis iste nat eror acus  antium que. Asperiores, ea velit enim labore doloribus.
-                            </div>
+							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
                     <div class="col-md-6 right-50" style="background-image:url('/modulus/uploads/modulus_casino_system_grow_revenues_poker_chips.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
@@ -117,8 +115,7 @@
 								<span class="light_title">FROM DATA</span>
 							</h3>
 							<div class="line-3-70-stick-W"></div>
-							<div class="fes2-text-cont">Sed ut perspiciatis unde omnis iste nat eror acus  antium que. Asperiores, ea velit enim labore doloribus.
-                            </div>
+							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
 					<div class="col-md-6" style="background-image:url('/modulus/uploads/modulus_casino_system_more_values_from_data.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
@@ -140,8 +137,7 @@
 								<span class="light_title">SUPPORT</span>
 							</h3>
 							<div class="line-3-70-stick-W"></div>
-							<div class="fes2-text-cont">Sed ut perspiciatis unde omnis iste nat eror acus  antium que. Asperiores, ea velit enim labore doloribus.
-                            </div>
+							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
                     <div class="col-md-6 right-50" style="background-image:url('/modulus/uploads/modulus_casino_system_customer_support.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
