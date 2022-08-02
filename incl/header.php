@@ -12,13 +12,16 @@
     <link rel="stylesheet" href="/modulus/style/icons-fonts.css" >	
     <link rel='stylesheet' href="/modulus/style/animate.min.css">
     <link rel="stylesheet" href="/modulus/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <header class="container-fluid">
         <div class="container contain_header">
             <div class="Block_logo_Site_header">
-                <a href="/modulus/index.php"><img src="/modulus/uploads/Logo Modulud.png" alt="Logo Modulus" class="logo_Site_header"></a>
+                <a href="/modulus/index.php"><img src="/modulus/uploads/Logo_Modulud.png" alt="Logo Modulus" class="logo_Site_header"></a>
             </div>
             <div class="burger_menu">
                 <div class="burgerBar1">|</div>
