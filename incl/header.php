@@ -30,13 +30,25 @@
             </div>
             <nav class="nav_menu">
                 <ul>
-                    <li class="level_0"><a href="best-choice.php">Best Choice</a></li>
-                    <li class="level_0"><a href="products.php">Products</a></li>
+                    <li id="menu_ID_1" class="level_0"><a href="best-choice.php">Best Choice</a>
+                        <ul id="submenu_ID_1" class="fade-out-submenu">
+                            <li class="level_1"><a href="#">Better Experiences</a></li>
+                            <li class="level_1"><a href="#">More Revenues</a></li>
+                            <li class="level_1"><a href="#">Powerfull Data</a></li>
+                            <li class="level_1"><a href="#">Support For Our Business</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu_ID_2" class="level_0"><a href="products.php">Products</a>
+                        <ul id="submenu_ID_2"class="fade-out-submenu">
+                            <li class="level_1"><a href="#">Systems</a></li>
+                            <li class="level_1"><a href="#">Slots Cabinets</a></li>
+                        </ul>
+                    </li>
                     <li class="level_0"><a href="group.php">Group</a></li>
                     <li class="level_0"><a href="contact.php">Contact</a></li>
                     <li class="level_0"><a id="lang_UK" href="#">UK</a>/<a id="lang_ES" href="#">ES</a></li>
                     <li class="level_0" id="loop_search"><i class="fa-solid fa-magnifying-glass"></i></li>
-                    <li><input id="Search_Widget" type="text" placeholder="Recherche ..."></li>
+                    <li class="liSearchBar"><input id="Search_Widget" type="text" placeholder="Recherche ..."></li>
                 </ul>
             </nav>
         </div>

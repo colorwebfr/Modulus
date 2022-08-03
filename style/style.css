@@ -89,6 +89,9 @@ footer h5 {font-weight: 600;font-size: 15px;font-family: 'Open Sans', sans-serif
     header .Show_search#Search_Widget{display: block;}
     header .burger_menu {display: none;}
     header .container {height: 75px;}
+    .fade-out-submenu {display:none;    position: absolute;background: #000000;text-align: left;width: 210px;}
+    .fade-out-submenu li a {font-size: 14px !important;color: #ffffff;}
+    header nav ul li.level_0:hover>.fade-out-submenu {display: block;}
 }
 
 @media only screen and (max-width: 1024px){
@@ -107,6 +110,9 @@ footer h5 {font-weight: 600;font-size: 15px;font-family: 'Open Sans', sans-serif
     header nav ul li {line-height: 30px;}
     li#loop_search, input#Search_Widget { float: left;}
     li#loop_search {padding: 8px 5px 8px 0px;}
+    header nav ul li a:hover {margin: 0px 10px 0px 0px;}
+    header .fade-out-submenu {margin-left: 15px;}
+    header .fade-out-submenu li a {font-size: 14px !important;}
 }
 
 @media only screen and (max-width: 991px){
@@ -136,8 +142,14 @@ footer h5 {font-weight: 600;font-size: 15px;font-family: 'Open Sans', sans-serif
   /* MENU */
   header .Block_logo_Site_header {width: 70%;}
   header div.burgerBar1, div.burgerBar2, div.burgerBar3 {font-size: 24px;}
-  .burger_menu.Show_toggleMenu .burgerBar1 {transform: translate(0px, 5px) rotate(45deg) !important;}
-  nav.nav_menu.Menu_toggleShow {padding: 30px 15px;}
+  header .burger_menu.Show_toggleMenu .burgerBar1 {transform: translate(0px, 5px) rotate(45deg) !important;}
+  header nav.nav_menu.Menu_toggleShow {padding: 30px 15px;}
+  header nav ul li a {color: #ffffff;}
+  header nav ul li.level_0 {line-height: 35px;}
+  header nav ul li.level_0 {border-bottom: solid 1px #ffffff;}
+  header li#loop_search {border-bottom: none;color: #ffffff;margin-top: 15px;}
+  header input#Search_Widget {background: #ffffffde;border: none;padding: 5px 15px;margin-left: 20px;}
+  header .liSearchBar {margin-top: 15px;}
 }
 
 /*/////////////////////// Theme haswell //////////////////////////// */
@@ -1013,7 +1025,7 @@ footer h5 {font-weight: 600;font-size: 15px;font-family: 'Open Sans', sans-serif
   .fes2-text-cont{
       margin-top:30px;
   }
-  .fes2-img {
+  /* .fes2-img {
     background: url(../images/fes2.jpg) 50% 50% no-repeat;
     
     width: 100%;
@@ -1027,7 +1039,7 @@ footer h5 {font-weight: 600;font-size: 15px;font-family: 'Open Sans', sans-serif
   
     background-repeat: no-repeat;
     background-position: center center;
-  }
+  } */
   .title-fs-45 {
       color:#4b4e53;
       font-family: 'Lato',Arial,Helvetica,sans-serif;
@@ -1035,7 +1047,7 @@ footer h5 {font-weight: 600;font-size: 15px;font-family: 'Open Sans', sans-serif
       line-height: 45px;
       font-weight: 300;
   }
-  .fes3-img {
+  /* .fes3-img {
     background: url(../images/fes3.jpg) 50% 50% no-repeat;
     background-size: cover;
     
@@ -1049,7 +1061,7 @@ footer h5 {font-weight: 600;font-size: 15px;font-family: 'Open Sans', sans-serif
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center center;
-  }
+  } */
   .line-3-70{
       margin-top:11px;
       height:3px;
