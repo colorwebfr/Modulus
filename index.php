@@ -26,12 +26,12 @@
 		<section class="textL_imgR" id="the_road_ahead">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-xs-12 wow fadeInLeft equal-height-short" style="visibility: visible; animation-name: fadeInLeft;">
+					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft equal-height-short" style="visibility: visible; animation-name: fadeInLeft;">
 						<h1 class="title_Modulus">THE ROAD<br><span class="bold">AHEAD</span></h1>
 						<div class="line-3-70-stick-B"></div>
 						<p class="subTitle_hero">INNOVATIVE TECHNOLOGIES<br> AT THE SERVICE OF YOUR BUSINESS</p>
 					</div>
-					<div class="col-md-6 col-xs-12 equal-height-short blockImgFlech">
+					<div class="col-md-6 col-sm-6 col-xs-12 equal-height-short blockImgFlech">
 						<img src="/modulus/uploads/modulus_casino_system.png" alt="trois flêche indiquant les graphiques KPI" class="Logo_flecheTop">
 					</div>	
 				</div>
@@ -61,12 +61,13 @@
 			</div>
 		</section>
 		<!-- END SECTION Welcome to Modulus -->
+
         <!-- Section Better Player -->
         <div class="page-section Better_Player">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 wow fadeInLeft equal-height bg-black" style="visibility: visible; animation-name: fadeInLeft;">
-						<div class="fes2-main-text-cont-left">
+					<div class="col-md-6 col-sm-6 col-xs-12 bg-black">
+						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height" style="visibility: visible; animation-name: fadeInLeft;">
 							<h3 class="title-fs-40">BETTER PLAYER<br>
 								<span class="light_title">EXPERIENCES</span>
 							</h3>
@@ -74,7 +75,7 @@
 							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
-					<div class="col-md-6" style="background-image:url('/modulus/uploads/modulus_casino_system_better_player_experience_slot_machine.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
+					<div class="col-md-6 col-sm-6 col-xs-12" style="background-image:url('/modulus/uploads/modulus_casino_system_better_player_experience_slot_machine.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
 						<div class="row">
 							<div class="fes2-img equal-height"></div>
 						</div>
@@ -87,8 +88,8 @@
         <div class="page-section Grow_Revenues">
 		    <div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 left-50 wow fadeInRight equal-height bg-black" style="visibility: visible; animation-name: fadeInRight;">
-						<div class="fes2-main-text-cont-right">
+					<div class="col-md-6 col-sm-6 col-xs-12 left-50 bg-black block-black-homeImp">
+						<div class="fes2-main-text-cont-right wow fadeInRight equal-height" style="visibility: visible; animation-name: fadeInRight;">
 							<h3 class="title-fs-40">GROW<br>
 								<span class="light_title">REVENUES</span>
 							</h3>
@@ -96,7 +97,7 @@
 							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
-                    <div class="col-md-6 right-50" style="background-image:url('/modulus/uploads/modulus_casino_system_grow_revenues_poker_chips.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
+                    <div class="col-md-6 col-sm-6 col-xs-12 right-50" style="background-image:url('/modulus/uploads/modulus_casino_system_grow_revenues_poker_chips.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
 						<div class="row">
 							<div class="fes3-img equal-height"></div>
 						</div>
@@ -109,8 +110,8 @@
         <div class="page-section More_Value">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 wow fadeInLeft equal-height bg-black" style="visibility: visible; animation-name: fadeInLeft;">
-						<div class="fes2-main-text-cont-left">
+					<div class="col-md-6 col-sm-6 col-xs-12 bg-black" >
+						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height" style="visibility: visible; animation-name: fadeInLeft;">
 							<h3 class="title-fs-40">MORE VALUE<br>
 								<span class="light_title">FROM DATA</span>
 							</h3>
@@ -118,7 +119,7 @@
 							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
-					<div class="col-md-6" style="background-image:url('/modulus/uploads/modulus_casino_system_more_values_from_data.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
+					<div class="col-md-6 col-sm-6 col-xs-12" style="background-image:url('/modulus/uploads/modulus_casino_system_more_values_from_data.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
 						<div class="row">
 							<div class="fes2-img equal-height"></div>
 						</div>
@@ -131,8 +132,8 @@
         <div class="page-section Customer">
 		    <div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 left-50 wow fadeInRight equal-height bg-black" style="visibility: visible; animation-name: fadeInRight;">
-						<div class="fes2-main-text-cont-right">
+					<div class="col-md-6 col-sm-6 col-xs-12 left-50 bg-black block-black-homeImp">
+						<div class="fes2-main-text-cont-right wow fadeInRight equal-height" style="visibility: visible; animation-name: fadeInRight;">
 							<h3 class="title-fs-40">CUSTOMER<br>
 								<span class="light_title">SUPPORT</span>
 							</h3>
@@ -140,7 +141,7 @@
 							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
-                    <div class="col-md-6 right-50" style="background-image:url('/modulus/uploads/modulus_casino_system_customer_support.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
+                    <div class="col-md-6 col-sm-6 col-xs-12 right-50" style="background-image:url('/modulus/uploads/modulus_casino_system_customer_support.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
 						<div class="row">
 							<div class="fes3-img equal-height"></div>
 						</div>
@@ -149,6 +150,7 @@
 			</div>
 		</div>
         <!-- END Section Customer -->
+
 		<!-- Section Map pre-footer -->
 		<section class="map_hero">
 			<div class="container">

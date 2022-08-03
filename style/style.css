@@ -92,16 +92,48 @@ footer h5 {font-weight: 600;font-size: 15px;font-family: 'Open Sans', sans-serif
 }
 
 @media only screen and (max-width: 1024px){
+  /* MENU */
     header nav.nav_menu {width: 30%;position: absolute;background: #ffffff;top: 70px;right: -100%;transition: .3s ease-in-out;padding: 15px 0px 30px 30px;}
     header {background: #ffffff;}
     header .Block_logo_Site_header {width: 24%;float: left;}
     header .contain_header {display: block; width:100%;height: 70px;}
-    header .burger_menu {float: right;line-height: 0.4;position: relative;}
+    header .burger_menu {float: right;line-height: 0.35;position: relative;}
     nav.nav_menu.Menu_toggleShow {right: 0;}
     header nav.nav_menu ul {padding-left: 0;margin-bottom: 0;}
     .burger_menu.Show_toggleMenu div.burgerBar2 {display: none;}
     .burger_menu.Show_toggleMenu .burgerBar3 {transform: rotate(135deg) !important;}
-    .burger_menu.Show_toggleMenu .burgerBar1 {transform: translate(0px, 11px) rotate(45deg) !important;}
+    .burger_menu.Show_toggleMenu .burgerBar1 {transform: translate(0px, 8px) rotate(45deg) !important;}
+    header nav ul li a {margin-left: 0;}
+    header nav ul li {line-height: 30px;}
+    li#loop_search, input#Search_Widget { float: left;}
+    li#loop_search {padding: 8px 5px 8px 0px;}
+}
+
+@media only screen and (max-width: 991px){
+  .Hero_home .anchor {display: none;}
+  .main_home section.block_titleText_4 p {max-width: 100%;}
+  .main_home section#the_road_ahead {margin-bottom: 30px;height: auto;}
+  .main_home .block_titleText_4 .equal-height {height: auto; margin-bottom: 30px;}
+  .block-black-homeImp {float: right;}
+}
+
+@media only screen and (max-width: 768px){
+  .equal-height-short {height: auto;}
+  .main_home img.Logo_flecheTop {max-width: 100%;}
+  .blockImgFlech {text-align: center;}
+  .main_home .fes2-main-text-cont-left, .main_home .fes2-main-text-cont-right {padding: 80px 15px 15px 15px;}
+}
+
+@media only screen and (max-width: 480px){
+  h1 {font-size: 40px;}
+  h2, h3, .title-fs-40 {font-size: 32px;}
+  .light_title {font-size: 30px;}
+  .main_home p.subTitle_hero {font-size: 20px;margin-bottom: 30px;}
+  .main_home .page-section .equal-height {height: 300px;}
+  .main_home .fes2-main-text-cont-left, .main_home .fes2-main-text-cont-right {padding: 50px 15px 15px 15px;}
+  .main_home section.map_hero img {width: 190px;}
+  .main_home .p-80-cont {padding-top: 10px;padding-bottom: 0px;}
+  header .Block_logo_Site_header {width: 70%;}
 }
 
 /*/////////////////////// Theme haswell //////////////////////////// */
