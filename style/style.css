@@ -133,7 +133,11 @@ footer h5 {font-weight: 600;font-size: 15px;font-family: 'Open Sans', sans-serif
   .main_home .fes2-main-text-cont-left, .main_home .fes2-main-text-cont-right {padding: 50px 15px 15px 15px;}
   .main_home section.map_hero img {width: 190px;}
   .main_home .p-80-cont {padding-top: 10px;padding-bottom: 0px;}
+  /* MENU */
   header .Block_logo_Site_header {width: 70%;}
+  header div.burgerBar1, div.burgerBar2, div.burgerBar3 {font-size: 24px;}
+  .burger_menu.Show_toggleMenu .burgerBar1 {transform: translate(0px, 5px) rotate(45deg) !important;}
+  nav.nav_menu.Menu_toggleShow {padding: 30px 15px;}
 }
 
 /*/////////////////////// Theme haswell //////////////////////////// */
