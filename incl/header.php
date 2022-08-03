@@ -1,3 +1,10 @@
+<?php
+$path = $_SERVER['REQUEST_URI'];
+$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$Parse_page = parse_url($actual_link);
+$last_path = basename($Parse_page['path']);
+$bodyClass = str_replace(".php", "", $last_path);
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300;500&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="<?php echo $bodyClass; ?>">
     
     <header class="container-fluid">
         <div class="container contain_header">
@@ -53,3 +60,11 @@
             </nav>
         </div>
     </header>
+
+    <?php if ( ! strpos($path, "index.php") ) : ?>
+    <section class="title_breadCrumb">
+        <div class="container">
+            <?php include $_SERVER['DOCUMENT_ROOT']."/modulus/incl/breadcrumb.php"; ?>
+        </div>
+    </section>
+    <?php endif; ?>
