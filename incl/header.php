@@ -4,6 +4,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 $Parse_page = parse_url($actual_link);
 $last_path = basename($Parse_page['path']);
 $bodyClass = str_replace(".php", "", $last_path);
+$title_Breadcrumb = str_replace("-", " ", $bodyClass);
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -25,6 +26,7 @@ $bodyClass = str_replace(".php", "", $last_path);
 </head>
 <body class="<?php echo $bodyClass; ?>">
     
+    <!-- Header globale -->
     <header class="container-fluid">
         <div class="container contain_header">
             <div class="Block_logo_Site_header">
@@ -39,7 +41,7 @@ $bodyClass = str_replace(".php", "", $last_path);
                 <ul>
                     <li id="menu_ID_1" class="level_0"><a href="best-choice.php">Best Choice</a>
                         <ul id="submenu_ID_1" class="fade-out-submenu">
-                            <li class="level_1"><a href="#">Better Experiences</a></li>
+                            <li class="level_1"><a href="better-player-experiences.php">Better Experiences</a></li>
                             <li class="level_1"><a href="#">More Revenues</a></li>
                             <li class="level_1"><a href="#">Powerfull Data</a></li>
                             <li class="level_1"><a href="#">Support For Our Business</a></li>
@@ -61,10 +63,16 @@ $bodyClass = str_replace(".php", "", $last_path);
         </div>
     </header>
 
+    <!-- Breadcrumb -->
     <?php if ( ! strpos($path, "index.php") ) : ?>
     <section class="title_breadCrumb">
         <div class="container">
-            <?php include $_SERVER['DOCUMENT_ROOT']."/modulus/incl/breadcrumb.php"; ?>
+            <div class="Name_Page">
+                <h1><?php echo $title_Breadcrumb; ?></h1>
+            </div>
+            <div class="breadcrumb">
+                <?php include $_SERVER['DOCUMENT_ROOT']."/modulus/incl/breadcrumb.php"; ?>
+            </div>
         </div>
     </section>
     <?php endif; ?>

@@ -44,15 +44,15 @@
                 <h4>NAVIGATE</h4>
                 <h5>BEST CHOICE</h5>
                 <ul class="a-text-cont">
-                  <li><a href="index.html">Better Experiences</a></li>
-                  <li><a href="grid-system.html">More Revenues</a></li>
-                  <li><a href="services.html">Powerful Data</a></li>
-                  <li><a href="index-portfolio.html">Support for your Business</a></li>
+                  <li><a href="better-player-experiences.php">Better Experiences</a></li>
+                  <li><a href="#">More Revenues</a></li>
+                  <li><a href="#">Powerful Data</a></li>
+                  <li><a href="#">Support for your Business</a></li>
                 </ul>
                 <h5>PRODUCTS</h5>
                 <ul class="a-text-cont">
-                  <li><a href="index.html">Systems</a></li>
-                  <li><a href="grid-system.html">Slots Cabinets</a></li>
+                  <li><a href="#">Systems</a></li>
+                  <li><a href="#">Slots Cabinets</a></li>
                 </ul>
                 <h5>GROUP</h5>
               </div>

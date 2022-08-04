@@ -72,7 +72,7 @@
 								<span class="light_title">EXPERIENCES</span>
 							</h3>
 							<div class="line-3-70-stick-W m-stick"></div>
-							<a href="#" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+							<a href="better-player-experiences.php" class="btn_learnMore">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12" style="background-image:url('/modulus/uploads/modulus_casino_system_better_player_experience_slot_machine.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
