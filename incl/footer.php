@@ -71,27 +71,24 @@
                 </ul>
               </div>
               
+              <!-- Recent posts boucle -->
               <div class="col-md-3 col-sm-3 widget">
                 <h4>RECENT POSTS</h4>
                 <div id="post-list-footer">
-
+                <?php 
+                for ( $i = 0; $i < 3; $i++ ) { 
+                ?>
                 <h5>MAY 20, 2015</h5>
                 <ul class="a-text-cont">
                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                 </ul>
-
-                <h5>MAY 20, 2015</h5>
-                <ul class="a-text-cont">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                </ul>
-
-                <h5>MAY 20, 2015</h5>
-                <ul class="a-text-cont">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                </ul>
-
+                <?php
+                }
+                ?>
                 </div>                  
               </div>
+              <!-- END Recent posts boucle -->
+
             </div>    
             
             <div class="footer-2-copy-cont clearfix">
