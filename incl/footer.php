@@ -94,9 +94,9 @@
             <div class="footer-2-copy-cont clearfix">
               <!-- Social Links -->
               <div class="footer-2-soc-a right">
-                <a href="https://1.envato.market/a1gQR" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://1.envato.market/a1gQR" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="https://1.envato.market/a1gQR" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://1.envato.market/a1gQR" title="Facebook" target="_blank"><i class="fa-brands fa-facebook-f text-white"></i></a>
+                <a href="https://1.envato.market/a1gQR" title="Twitter" target="_blank"><i class="fa fa-twitter text-white"></i></a>
+                <a href="https://1.envato.market/a1gQR" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin text-white"></i></a>
               </div>
               
               <!-- Copyright -->

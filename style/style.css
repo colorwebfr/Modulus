@@ -112,7 +112,9 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
 
 @media only screen and (min-width: 1025px){
     /* Menu Desktop */
-    header nav.nav_menu li.level_0 {display: inline-block;}
+    header nav.nav_menu li.level_0 {display: inline-block;position: relative;}
+    li.level_0::after {border-bottom: solid;content: " ";width: 0%;height: 2px;position: absolute;bottom: -5px;left: 0;transition: .3s ease-in-out;}
+    li.level_0:hover:after{width: 100%;}
     header {position: fixed;width: 100%;margin-top: 30px;top: 0;}
     header input#Search_Widget {    display: none;position: absolute;right: -15px;top: 52px;padding: 5px 15px;}
     header nav.nav_menu {text-align: right;}
@@ -125,13 +127,13 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
     .fade-out-submenu {display:none;position: absolute;background: #000000;text-align: left;width: 210px;}
     .fade-out-submenu li a {font-size: 14px !important;color: #ffffff;}
     header nav ul li.level_0:hover>.fade-out-submenu {display: block;}
-    header .fade-out-submenu {padding: 15px;}
+    header .fade-out-submenu {padding: 15px;border-top: solid 15px #ffffff;}
     header li.level_1 a {margin-left: 0;}
 }
 
 @media only screen and (max-width: 1024px){
   /* MENU */
-    header nav.nav_menu {width: 30%;position: absolute;background: #ffffff;top: 70px;right: -100%;transition: .3s ease-in-out;padding: 15px 0px 30px 30px;z-index: 999;}
+    header nav.nav_menu {width: 40%;position: absolute;background: #ffffff;top: 70px;right: -100%;transition: .3s ease-in-out;padding: 15px 30px 30px 30px;z-index: 999;}
     header {background: #ffffff;}
     header .Block_logo_Site_header {width: 24%;float: left;}
     header .contain_header {display: block; width:100%;height: 70px;}
@@ -143,13 +145,18 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
     .burger_menu.Show_toggleMenu .burgerBar1 {transform: translate(0px, 8px) rotate(45deg) !important;}
     header nav ul li a {margin-left: 0;}
     header nav ul li {line-height: 30px;}
-    li#loop_search, input#Search_Widget { float: left;}
+    li#loop_search, input#Search_Widget { float: left;border: none;}
     li#loop_search {padding: 8px 5px 8px 0px;}
     header nav ul li a:hover {margin: 0px 10px 0px 0px;}
     header .fade-out-submenu {margin-left: 15px;}
     header .fade-out-submenu li a {font-size: 14px !important;}
     section.title_breadCrumb {background: #000000;margin-top: 0;}
     header nav.nav_menu li.level_1, header nav.nav_menu li.level_1 a {color: #000000;}
+    .arrow_submenu::after {content: " ";width: 10px;height: 10px;border-top: solid 2px #000000;border-left: solid 2px #000000;position: absolute;top: 12px;right: 15px;transition: .3s ease-in-out;transform: rotate(224deg);}
+    .arrow_submenu:hover::after {transform: rotate(45deg);}
+    .arrow_submenu {position: relative;}
+    header nav ul li.level_0 {border-bottom: solid 1px #000000;}
+    header nav.nav_menu li.level_0, header nav.nav_menu li.level_0 a {line-height: 40px;}
 }
 
 @media only screen and (max-width: 991px){
@@ -161,8 +168,8 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_betterPlayer .card_magic .container .row .fes4-title-cont {padding-right: 0;}
   .main_betterPlayer .card_magic .title_cardFade {font-size: 20px;}
   .main_betterPlayer .blockDesc_lastPlayer {padding: 40px 15px 15px 30px;}
-  .main_betterPlayer #the_road_ahead .equal-height-short {height: auto;}
-  .main_betterPlayer section#the_road_ahead {margin-bottom: 30px;}
+  .main_betterPlayer #the_road_ahead .equal-height-short, .main_more_revenue #the_road_ahead .equal-height-short {height: auto;}
+  .main_betterPlayer section#the_road_ahead, .main_more_revenue section#the_road_ahead {margin-bottom: 30px;}
 }
 
 @media only screen and (max-width: 768px){
@@ -170,12 +177,14 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_home img.Logo_flecheTop {max-width: 100%;}
   .blockImgFlech {text-align: center;}
   .main_home .fes2-main-text-cont-left, .main_home .fes2-main-text-cont-right {padding: 80px 15px 15px 15px;}
-  .main_betterPlayer #the_road_ahead .equal-height-short:last-child {margin-top: 30px;}
+  .main_betterPlayer #the_road_ahead .equal-height-short:last-child, .main_more_revenue  #the_road_ahead .equal-height-short:last-child {margin-top: 30px;}
   section.title_breadCrumb .Name_Page h1 {font-size: 20px;}
   section.title_breadCrumb a {font-size: 12px;}
   section.title_breadCrumb>.container {height: auto;}
   section.title_breadCrumb .breadcrumb {top: 0px;float: left;padding-left: 0;}
   section.title_breadCrumb .Name_Page {top: 9px;padding-right: 15px;}
+  .main_more_revenue .fes2-main-text-cont-left {margin: 0 auto;padding: 50px 15px 15px 15px;}
+  .main_more_revenue .equal-height {height: 390px;}
 }
 
 @media only screen and (max-width: 480px){
@@ -187,6 +196,9 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_home .fes2-main-text-cont-left, .main_home .fes2-main-text-cont-right {padding: 50px 15px 15px 15px;}
   .main_home section.map_hero img {width: 190px;}
   .main_home .p-80-cont {padding-top: 10px;padding-bottom: 0px;}
+  /* Globale */
+  .h2_SUBhero {font-size: 46px;}
+  .h2_SUBhero2 {font-size: 36px;}
   /* MENU */
   header .Block_logo_Site_header {width: 70%;}
   header div.burgerBar1, div.burgerBar2, div.burgerBar3 {font-size: 24px;}
@@ -200,13 +212,18 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   header .liSearchBar {margin-top: 15px;}
   header .container {padding: 15px 15px 0px 0px;}
   header nav.nav_menu li.level_0, header nav.nav_menu li.level_0 a, header nav.nav_menu li.level_1, header nav.nav_menu li.level_1 a {color: #ffffff;}
+  .arrow_submenu::after {content: " ";width: 10px;height: 10px;border-top: solid 2px #ffffff;border-left: solid 2px #ffffff;position: absolute;top: 12px;right: 15px;transition: .3s ease-in-out;transform: rotate(224deg);}
   /* PAGE Better Player */
   .main_betterPlayer .blockDesc_lastPlayer {padding: 30px 15px 15px 30px;}
   .main_betterPlayer .card_magic .container .row .fes4-title-cont, .main_betterPlayer .card_magic .container .row p {padding-left: 45px;}
+  .main_betterPlayer .card_magic .container {padding: 0px 15px 0px 0px;}
   /* BREADCRUMB */
   section.title_breadCrumb {line-height: 1.2;}
   section.title_breadCrumb .Name_Page {margin-bottom: 5px;}
   section.title_breadCrumb .Name_Page h1 {font-size: 18px;font-weight: bold;}
+  /* PAGE More Revenues */
+  .main_more_revenue .fes2-main-text-cont-left {padding: 15px 15px 15px 15px;}
+  .main_more_revenue .equal-height {height: 400px;}
 }
 
 /*/////////////////////// Theme haswell //////////////////////////// */
