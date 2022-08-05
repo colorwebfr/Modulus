@@ -43,7 +43,7 @@
 						<p class="text-white p-14">Our systems provide end-to-end visibility of revenues through fully integrated, turnkey solutions. Remove friction and take control through Ticket In and Ticket Out modules, Cash Wallet and Chip Cash options and eWallet solutions for smartphones.</p>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12" style="background-image:url('/modulus/uploads/modulus_casino_system_better_player_experience_slot_machine.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
+				<div class="col-md-6 col-sm-6 col-xs-12" style="background-image:url('/modulus/uploads/machine-a-sous.png');background-position:top;background-size:cover;background-repeat:no-repeat;">
 					<div class="row">
 						<div class="fes2-img equal-height"></div>
 					</div>
@@ -65,7 +65,7 @@
 							<p class="text-white p-14">Understand the dynamics of table cash ﬂow like never before with our Accounting and Statistics packages, Player Tracking technology and Junket Management solutions.</p>
 						</div>
 					</div>
-                    <div class="col-md-6 col-sm-6 col-xs-12 right-50" style="background-image:url('/modulus/uploads/modulus_casino_system_grow_revenues_poker_chips.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
+                    <div class="col-md-6 col-sm-6 col-xs-12 right-50" style="background-image:url('/modulus/uploads/roulette-de casino.png');background-position:top;background-size:cover;background-repeat:no-repeat;">
 						<div class="row">
 							<div class="fes3-img equal-height"></div>
 						</div>
