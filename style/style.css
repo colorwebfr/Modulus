@@ -137,6 +137,7 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
     header nav ul li a:hover {margin: 0px 10px 0px 0px;}
     header .fade-out-submenu {margin-left: 15px;}
     header .fade-out-submenu li a {font-size: 14px !important;}
+    section.title_breadCrumb {background: #000000;margin-top: 0;}
 }
 
 @media only screen and (max-width: 991px){
@@ -145,6 +146,11 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_home section#the_road_ahead {margin-bottom: 30px;height: auto;}
   .main_home .block_titleText_4 .equal-height {height: auto; margin-bottom: 30px;}
   .block-black-homeImp {float: right;}
+  .main_betterPlayer .card_magic .container .row .fes4-title-cont {padding-right: 0;}
+  .main_betterPlayer .card_magic .title_cardFade {font-size: 20px;}
+  .main_betterPlayer .blockDesc_lastPlayer {padding: 40px 15px 15px 30px;}
+  .main_betterPlayer #the_road_ahead .equal-height-short {height: auto;}
+  .main_betterPlayer section#the_road_ahead {margin-bottom: 30px;}
 }
 
 @media only screen and (max-width: 768px){
@@ -152,6 +158,12 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_home img.Logo_flecheTop {max-width: 100%;}
   .blockImgFlech {text-align: center;}
   .main_home .fes2-main-text-cont-left, .main_home .fes2-main-text-cont-right {padding: 80px 15px 15px 15px;}
+  .main_betterPlayer #the_road_ahead .equal-height-short:last-child {margin-top: 30px;}
+  section.title_breadCrumb .Name_Page h1 {font-size: 20px;}
+  section.title_breadCrumb a {font-size: 12px;}
+  section.title_breadCrumb>.container {height: auto;}
+  section.title_breadCrumb .breadcrumb {top: 0px;float: left;padding-left: 0;}
+  section.title_breadCrumb .Name_Page {top: 9px;padding-right: 15px;}
 }
 
 @media only screen and (max-width: 480px){
@@ -174,6 +186,14 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   header li#loop_search {border-bottom: none;color: #ffffff;margin-top: 15px;}
   header input#Search_Widget {background: #ffffffde;border: none;padding: 5px 15px;margin-left: 20px;}
   header .liSearchBar {margin-top: 15px;}
+  header .container {padding: 15px 15px 0px 0px;}
+  /* PAGE Better Player */
+  .main_betterPlayer .blockDesc_lastPlayer {padding: 30px 15px 15px 30px;}
+  .main_betterPlayer .card_magic .container .row .fes4-title-cont, .main_betterPlayer .card_magic .container .row p {padding-left: 45px;}
+  /* BREADCRUMB */
+  section.title_breadCrumb {line-height: 1.2;}
+  section.title_breadCrumb .Name_Page {margin-bottom: 5px;}
+  section.title_breadCrumb .Name_Page h1 {font-size: 18px;font-weight: bold;}
 }
 
 /*/////////////////////// Theme haswell //////////////////////////// */
