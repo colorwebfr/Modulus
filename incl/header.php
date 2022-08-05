@@ -39,10 +39,10 @@ $title_Breadcrumb = str_replace("-", " ", $bodyClass);
             </div>
             <nav class="nav_menu">
                 <ul>
-                    <li id="menu_ID_1" class="level_0"><a href="best-choice.php">Best Choice</a>
+                    <li id="menu_ID_1" class="level_0">Best Choice
                         <ul id="submenu_ID_1" class="fade-out-submenu">
                             <li class="level_1"><a href="better-player-experiences.php">Better Experiences</a></li>
-                            <li class="level_1"><a href="#">More Revenues</a></li>
+                            <li class="level_1"><a href="more-revenues.php">More Revenues</a></li>
                             <li class="level_1"><a href="#">Powerfull Data</a></li>
                             <li class="level_1"><a href="#">Support For Our Business</a></li>
                         </ul>

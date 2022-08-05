@@ -45,7 +45,7 @@
                 <h5>BEST CHOICE</h5>
                 <ul class="a-text-cont">
                   <li><a href="better-player-experiences.php">Better Experiences</a></li>
-                  <li><a href="#">More Revenues</a></li>
+                  <li><a href="more-revenues.php">More Revenues</a></li>
                   <li><a href="#">Powerful Data</a></li>
                   <li><a href="#">Support for your Business</a></li>
                 </ul>
