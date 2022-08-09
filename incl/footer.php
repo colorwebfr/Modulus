@@ -54,7 +54,7 @@
                   <li><a href="#">Systems</a></li>
                   <li><a href="#">Slots Cabinets</a></li>
                 </ul>
-                <h5>GROUP</h5>
+                <h5><a href="/modulus/group.php">GROUP</a></h5>
               </div>
               
               <div class="col-md-3 col-sm-3 widget">
