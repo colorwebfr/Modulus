@@ -111,7 +111,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-6 col-sm-6 col-xs-12 bg-black" >
-						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height" style="visibility: visible; animation-name: fadeInLeft;">
+						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height">
 							<h3 class="title-fs-40">MORE VALUE<br>
 								<span class="light_title">FROM DATA</span>
 							</h3>
@@ -133,7 +133,7 @@
 		    <div class="container-fluid">
 				<div class="row">
 					<div class="col-md-6 col-sm-6 col-xs-12 left-50 bg-black block-black-homeImp">
-						<div class="fes2-main-text-cont-right wow fadeInRight equal-height" style="visibility: visible; animation-name: fadeInRight;">
+						<div class="fes2-main-text-cont-right wow fadeInRight equal-height">
 							<h3 class="title-fs-40">CUSTOMER<br>
 								<span class="light_title">SUPPORT</span>
 							</h3>

@@ -18,11 +18,11 @@
     <section class="textL_imgR" id="the_road_ahead">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft equal-height-short" style="visibility: visible; animation-name: fadeInLeft;">
+					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft equal-height-short">
 						<h2 class="title_Modulus h2_SUBhero light">LET'S CREATE<br><span class="bold h2_SUBhero2">BETTER PLAYER EXPERIENCES</span></h2>
 						<div class="line-3-70-stick-B"></div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight equal-height-short" style="visibility: visible; animation-name: fadeInRight;">
+					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight equal-height-short">
 						<p>Modulus has the expertise to develop a bespoke systems solution for each customer’s needs – and technology uniquely designed around making it possible. Just as importantly, we have an approach to implementing systems that makes full use of this potential. We look at your priorities, look at your players’ priorities, and design the experiences that can deliver against both. Feeling valued and well looked-after is what will keep your guests returning. We are constantly evolving our bonuses and loyalty tools, always looking for that next game changing solution that will keep players coming back for more.</p>
 					</div>	
 				</div>
@@ -35,7 +35,7 @@
 		<div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="fes4-box wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                    <div class="fes4-box wow fadeIn">
 						<div class="fes4-title-cont">
 							<div class="fes4-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
@@ -51,7 +51,7 @@
 				</div>
 
 				<div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="fes4-box wow fadeIn" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeIn;">
+                    <div class="fes4-box wow fadeIn" data-wow-delay="200ms">
 						<div class="fes4-title-cont">
 							<div class="fes4-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="28" viewBox="0 0 21 28">
@@ -67,7 +67,7 @@
 				</div>
 
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="fes4-box wow fadeIn" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeIn;">
+                    <div class="fes4-box wow fadeIn" data-wow-delay="400ms">
 						<div class="fes4-title-cont">
 							<div class="fes4-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="28" viewBox="0 0 35 28">
@@ -87,7 +87,7 @@
 			<div class="row">
 
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="fes4-box wow fadeIn" data-wow-delay="600ms" style="visibility: visible; animation-delay: 600ms; animation-name: fadeIn;">
+                    <div class="fes4-box wow fadeIn" data-wow-delay="600ms">
 					    <div class="fes4-title-cont">
 					        <div class="fes4-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
@@ -103,7 +103,7 @@
 			    </div>
 
 				<div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="fes4-box wow fadeIn" data-wow-delay="800ms" style="visibility: visible; animation-delay: 800ms; animation-name: fadeIn;">
+                    <div class="fes4-box wow fadeIn" data-wow-delay="800ms">
 						<div class="fes4-title-cont">
 						    <div class="fes4-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="28.006" height="28.005" viewBox="0 0 28.006 28.005">
@@ -119,7 +119,7 @@
 				</div>
 
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="fes4-box wow fadeIn" data-wow-delay="1000ms" style="visibility: visible; animation-delay: 1000ms; animation-name: fadeIn;">
+                    <div class="fes4-box wow fadeIn" data-wow-delay="1000ms">
 						<div class="fes4-title-cont">
 						    <div class="fes4-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="28" viewBox="0 0 35 28">
@@ -145,7 +145,7 @@
 				<div class="row">
                      <!-- Section GROW -->
 					<div class="col-md-4 col-sm-4 col-xs-12 bg_lastbetterPlayer" style="background-image:url('/modulus/uploads/modulus_casino_system_grow_revenues_poker_chips.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
-						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height blockDesc_lastPlayer" style="visibility: visible; animation-name: fadeInLeft;">
+						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height blockDesc_lastPlayer">
                             <h3 class="title-fs-40">GROW<br>
 								<span class="light_title">REVENUES</span>
 							</h3>
@@ -156,7 +156,7 @@
                     <!-- END Section GROW -->
                     <!-- Section MORE VALUE -->
 					<div class="col-md-4 col-sm-4 col-xs-12 bg_lastbetterPlayer" style="background-image:url('/modulus/uploads/modulus_casino_system_more_values_from_data.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
-						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height blockDesc_lastPlayer" style="visibility: visible; animation-name: fadeInLeft;">
+						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height blockDesc_lastPlayer">
                             <h3 class="title-fs-40">MORE VALUE<br>
 								<span class="light_title">FROM DATA</span>
 							</h3>
@@ -167,7 +167,7 @@
                     <!-- END Section MORE VALUE -->
                     <!-- Section CUSTOMER -->
 					<div class="col-md-4 col-sm-4 col-xs-12 bg_lastbetterPlayer" style="background-image:url('/modulus/uploads/modulus_casino_system_customer_support.jpg');background-position:top;background-size:cover;background-repeat:no-repeat;">
-						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height blockDesc_lastPlayer" style="visibility: visible; animation-name: fadeInLeft;">
+						<div class="fes2-main-text-cont-left wow fadeInLeft equal-height blockDesc_lastPlayer">
                             <h3 class="title-fs-40">CUSTOMER<br>
 								<span class="light_title">SUPPORT</span>
 							</h3>
