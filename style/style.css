@@ -55,7 +55,7 @@ header img.logo_Site_header {width: 194px;}
 header div.burgerBar1, div.burgerBar2, div.burgerBar3 {color: #000000;font-size: 34px;font-weight: 600;transition: .3s ease-in-out;transform: rotate(90deg);}
 header .burger_menu {cursor: pointer;}
 header nav.nav_menu li a, header nav.nav_menu li.level_0 {font-family: 'Oswald';font-size: 16px;}
-header nav.nav_menu li.level_0, header nav.nav_menu li.level_0 a {color:#000000;cursor:pointer;text-transform: uppercase;}
+header nav.nav_menu li.level_0, header nav.nav_menu li.level_0 a {color:#000000;cursor:pointer;text-transform: uppercase;margin: 0px 10px;}
 header nav.nav_menu li.level_1, header nav.nav_menu li.level_1 a {color:#ffffff;}
 header input#Search_Widget {background: #ffffff;outline: none;border: none;}
 header nav ul {position: relative;}
@@ -97,7 +97,7 @@ section.title_breadCrumb .Name_Page {float: left;position: relative;top: 28%;}
 section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
 
 /* PAGE Better Player */
-.main_betterPlayer section#the_road_ahead, .main_more_revenue section#the_road_ahead {margin-top: 60px;}
+.main_betterPlayer section#the_road_ahead, .main_more_revenue section#the_road_ahead, .main_All_slots_cabinets section#the_road_ahead {margin-top: 60px;}
 .main_betterPlayer .card_magic {background: #000000;margin: 15px auto;}
 .main_betterPlayer .card_magic .container .row p {color: #ffffff;padding-left:70px;font-size:14px;}
 .main_betterPlayer .card_magic .container .row .fes4-title-cont {padding-right: 90px;}
@@ -122,6 +122,12 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
 
 /* Page More Revenues */
 .main_more_revenue .page-section.Grow_Revenues {margin-bottom: 15px;}
+
+/* Page Slots Cabinets All */
+.main_All_slots_cabinets .equal-height-short {height: 250px;}
+.main_All_slots_cabinets .contain_navCatSlots {align-items: center;justify-content: space-evenly;flex-wrap: wrap;}
+.main_All_slots_cabinets section.menu_navCat {height: 130px;}
+.itemsNavCat a {font-weight: 500;font-family: 'Oswald' !important;font-size: 26px;}
 
 @media only screen and (min-width: 1025px){
     /* Menu Desktop */

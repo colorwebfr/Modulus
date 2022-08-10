@@ -47,10 +47,10 @@ $title_Breadcrumb = str_replace("-", " ", $bodyClass);
                             <li class="level_1"><a href="#">Support For Our Business</a></li>
                         </ul>
                     </li>
-                    <li id="menu_ID_2" class="level_0 has_child"><a href="products.php">Products</a>
+                    <li id="menu_ID_2" class="level_0 has_child">Products
                         <ul id="submenu_ID_2"class="fade-out-submenu">
                             <li class="level_1"><a href="#">Systems</a></li>
-                            <li class="level_1"><a href="#">Slots Cabinets</a></li>
+                            <li class="level_1"><a href="slots-cabinets.php">Slots Cabinets</a></li>
                         </ul>
                     </li>
                     <li class="level_0"><a href="group.php">Group</a></li>
