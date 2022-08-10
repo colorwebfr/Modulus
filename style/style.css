@@ -13,7 +13,7 @@ address,caption,cite,code,dfn,th,var {font-style:normal;font-weight:normal;}
 caption,th {text-align:left;}
 q:before,q:after {content:'';}
 abbr,acronym { border:0;} 
-body {border: 0 none;font-size: 100%;margin: 0;outline: 0 none;padding: 0;vertical-align: baseline;font-size: 14px;line-height: 25px;font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-weight: normal;color: #7e8082;background-color: #fff;-webkit-font-smoothing: antialiased !important;-webkit-text-size-adjust: 100% !important;}
+body {border: 0 none;font-size: 100%;margin: 0;outline: 0 none;padding: 0;vertical-align: baseline;font-size: 14px;line-height: 25px;font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-weight: normal;color: #7e8082;background-color: #fff;-webkit-font-smoothing: antialiased !important;-webkit-text-size-adjust: 100% !important;overflow-x: hidden;}
 h1, h2, h3 {font-family: 'Oswald', sans-serif; color: #000000;}
 h2, h3 {font-size: 40px;font-weight: 600;}
 h1 {font-size: 70px;font-weight: 300;}
@@ -116,6 +116,9 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
 .main_group h2.titleWorldwide {line-height: 1.4;font-size: 32px; position: relative;z-index: 6;padding-left: 13%;}
 .main_group section.worldwide::before {content: " ";position: absolute;height: 720px;width: 720px;border: solid 2px #e5e5e5;border-radius: 50%;transform: translateX(-50%);left: 50%;z-index: 2;}
 .main_group .sectionLeGroupe {position: relative;z-index: 6;}
+.main_group section.Casino_TrustUs {margin: 200px auto 100px auto;}
+.main_group h2.titleCasino_Trust.text-center {margin-bottom: 100px;}
+.main_group .box_logosGroup {height: 140px;border: solid 1px #ececec;padding: 15px;display: flex;align-items: center;justify-content: center;}
 
 /* Page More Revenues */
 .main_more_revenue .page-section.Grow_Revenues {margin-bottom: 15px;}
@@ -169,6 +172,16 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
     .arrow_submenu {position: relative;}
     header nav ul li.level_0 {border-bottom: solid 1px #000000;}
     header nav.nav_menu li.level_0, header nav.nav_menu li.level_0 a {line-height: 40px;}
+    /* Page Groupe */
+    .main_group .equal-height-short {height: auto;}
+    .main_group .blockOURvalues { padding-left: 15px;}
+    .main_group .fes2-main-text-cont {margin: 0 auto;padding: 15px 15px 15px 15px;max-width: 500px;}
+    .main_group .ads-img-cont {padding-top: 20px;padding-bottom: 30px;}
+    .main_group .sectionLeGroupe .ads-img-cont {text-align: center;}
+    .main_group section.worldwide::before {content: ""; display:none;}
+    .main_group .worldwide {height: 360px;margin-bottom: 0px;background-position: center !important;}
+    .main_group h2.titleWorldwide {font-size: 30px;;padding-left: inherit;font-weight: 500;text-align: center;}
+    .main_group section.Casino_TrustUs {margin: 0px auto 30px auto;}
 }
 
 @media only screen and (max-width: 991px){
@@ -236,6 +249,14 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   /* PAGE More Revenues */
   .main_more_revenue .fes2-main-text-cont-left {padding: 15px 15px 15px 15px;}
   .main_more_revenue .equal-height {height: 400px;}
+  /* Page Group */
+  .main_group .fes2-main-text-cont {padding: 15px 0px 15px 0px;}
+  .main_group .blockOURvalues {padding-left: 0px;}
+  .main_group .blockOURvalues h2 {font-size: 32px !important;text-align: center;}
+  .main_group section#the_road_ahead {margin-top: 30px;margin-bottom: 30px;}
+  .main_group h2.titleWorldwide {font-size: 20px;}
+  .main_group section.worldwide {background-size: cover;}
+  .main_group h2.titleCasino_Trust.text-center {margin-bottom: 30px;font-size: 26px;}
 }
 
 /*/////////////////////// Theme haswell //////////////////////////// */
