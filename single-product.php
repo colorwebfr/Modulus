@@ -54,15 +54,17 @@
                 </div>
                 <div class="col-md-6 col-sm-12 single-content-right">
                     <div class="post-prev-img popup-gallery">
-                        <a href="images/shop/items/1.jpg">
-                            <img src="images/shop/items/1.jpg" alt="img">
+                        <a href="/modulus/uploads/machine-merkur.png" class="ThumbProductRbox">
+                            <img src="/modulus/uploads/machine-merkur.png" alt="Produit Modulus">
                         </a>
                     </div>
                     <div class="row">
                         <div class="popup-gallery">
                             <?php for ($n = 0; $n < 3; $n++) { ?>
                                 <div class="col-xs-4 post-prev-img">
-                                    <a href="images/shop/items/1-1.jpg"><img src="images/shop/items/1-1-box.jpg" alt="img"></a>
+                                    <a href="/modulus/uploads/machine-merkur.png" class="gallery_products_Rbox">
+                                        <img src="/modulus/uploads/machine-merkur.png" alt="Produit Modulus">
+                                    </a>
                                 </div>
                             <?php } ?>
                         </div>

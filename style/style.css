@@ -149,6 +149,9 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
 .single-product .contentProductSingle ul li {list-style-type: initial;}
 .single-product .contentProductSingle ul li::marker {color: #cd0000;}
 .single-product .contentProductSingle ul {padding-left: 15px;}
+.single-product a.ThumbProductRbox img {max-height: 400px;width: auto;}
+.single-product a.ThumbProductRbox {height: 420px;}
+.single-product .popup-gallery  {text-align: center;}
 
 @media only screen and (min-width: 1025px){
     /* Menu Desktop */
