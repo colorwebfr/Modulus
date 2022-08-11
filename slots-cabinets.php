@@ -121,7 +121,7 @@
                   <h3><a href="portfolio-single1.html"><?php echo $brand_title; ?></a></h3>
                 </div>
                 <div class="port-btn-cont">
-                  <a href="#" class="permalink btn_learnMore"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                  <a href="single-product.php" class="permalink btn_learnMore"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
                 </div>
               </div>
               <img src="<?php echo $brand_miniature; ?>" alt="logo de la marque partenaire" class="miniature">
