@@ -31,9 +31,9 @@ ul li {list-style-type: none;}
 .line-3-70-stick-B {margin-top: 11px;height: 4px;width: 70px;background: #000000;}
 .equal-height-short {height: 370px;}
 .btn_learnMore {color: #ffffff;font-size: 16px;margin:0;}
-.btn_learnMore:hover>span {margin-left: 10px;}
-.btn_learnMore span {transition: .3s ease-in-out;}
-.btn_learnMore span i {color: rgb(218, 0, 0);display: inline-block;vertical-align: middle;}
+.btn_learnMore:hover>span, .port-btn-cont:hover>span{margin-left: 10px;}
+.btn_learnMore span, .port-btn-cont span {transition: .3s ease-in-out;}
+.btn_learnMore span i, .port-btn-cont i.fa-solid.fa-arrow-right-long {color: rgb(218, 0, 0);display: inline-block;vertical-align: middle;}
 .m-stick {margin: 20px 0px 30px 0px;}
 span.Plus_count {color: #000000;font-size: 50px;font-family: 'Oswald';position: relative;top: 2px;left: 2px;}
 .light {font-weight: 300 !important;}
@@ -135,11 +135,12 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
 .main_All_slots_cabinets .port-title-cont h3 a {color: #000;font-size: 20px;font-family: 'Oswald';letter-spacing: 1px;}
 .port-item:hover .port-overlay-cont, .main_All_slots_cabinets .lightbox-item:hover .port-overlay-cont {padding-top: 40px;padding-left: 15px;padding-right: 15px;}
 .main_All_slots_cabinets li.port-item.mix {border: solid 1px #dddddd;}
-.main_All_slots_cabinets img.miniature {position: absolute;bottom: 15px;left: 15px;max-height: 30px;width: auto;}
+.main_All_slots_cabinets img.miniature, .single-product img.miniature {position: absolute;bottom: 15px;left: 15px;max-height: 30px;width: auto;}
 .main_All_slots_cabinets .fa-magnifying-glass {color: #da0000;}
 .main_All_slots_cabinets .sectionListsMachines {margin-bottom:15px;}
 .main_All_slots_cabinets .customDataHeroArchive img {max-height: 200px;}
 .main_All_slots_cabinets .thumbBrandArchive {text-align: center;}
+.main_All_slots_cabinets .port-title-cont h3 {font-weight: 600;color: #000000;text-transform: uppercase;font-family: 'Oswald';}
 
 /* Single Product */
 .single-product a.filter.allProducts {font-weight: 500;font-family: 'Oswald' !important;font-size: 26px;color: #000000;display: inline-block;vertical-align: middle;}
@@ -149,9 +150,19 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
 .single-product .contentProductSingle ul li {list-style-type: initial;}
 .single-product .contentProductSingle ul li::marker {color: #cd0000;}
 .single-product .contentProductSingle ul {padding-left: 15px;}
-.single-product a.ThumbProductRbox img {max-height: 400px;width: auto;}
-.single-product a.ThumbProductRbox {height: 420px;}
+.single-product a.ThumbProductRbox img {max-height: 330px;width: auto;}
 .single-product .popup-gallery  {text-align: center;}
+.single-product a.gallery_products_Rbox img {max-height: 90px;width: auto;}
+.single-product .popup-gallery .post-prev-img {border: solid 1px #dddddd;height: 113px;width: 113px;margin: 0px auto 15px auto;display: flex;align-items: center;justify-content: center;box-shadow: inset 1px -22px 32px -6px #dddddd;}
+.single-product .single-content-right .post-prev-img {position: relative;border: solid 1px #dddddd;padding: 15px;width: 370px;height: 370px;box-shadow: inset 1px -22px 32px -6px #dddddd;}
+.single-product section.product-content .container {margin-bottom: 60px;border-bottom: solid 2px;padding-top: 30px;padding-bottom: 30px;}
+.single-product .VideoSingle {height: 600px;}
+.single-product section.videoSingle .container {border-bottom: solid 2px;margin-bottom: 60px;padding-bottom: 60px;}
+.single-product .boxCarouselRelated a img {max-height: 200px;width: auto;margin: 0 auto;}
+.single-product .boxCarouselRelated {height: 265px;width: 265px !important;border: solid 1px #dddddd;padding: 15px;margin: 0px 10px;box-shadow: inset 1px -22px 32px -6px #dddddd;}
+.single-product .box_content_related h3 {font-size: 20px;padding-left: 10px;}
+.single-product section.ProduitRelated {margin-bottom: 80px;}
+.single-product section.ProduitRelated h2 {font-size: 24px;padding-left: 10px;}
 
 @media only screen and (min-width: 1025px){
     /* Menu Desktop */

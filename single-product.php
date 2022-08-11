@@ -11,7 +11,7 @@
     <!-- Nav Brands -->
     <section class="container navBarBrands">
         <div class="port-filter text-center text-left-767 itemsNavCat">
-            <a href="#" class="filter allProducts" data-filter="*" data-univers-color="#000000" data-univers-logo="" data-unives-title="">
+            <a href="slots-cabinets.php" class="filter allProducts" data-unives-slug="">
                 ALL PRODUCTS
             </a>
             <?php
@@ -23,7 +23,7 @@
             )
             ?>
             <?php foreach ($tab_filter as $Brand_tab_filter => $Thumb_tab_filter) { ?>
-                <a href="#" class="filter" data-filter=".<?php echo $Brand_tab_filter; ?>" data-univers-color="#005CA8" data-univers-logo="/modulus/uploads/machine-alfastreet.png" data-unives-title="igt">
+                <a href="#" class="filter" data-unives-slug="igt">
                     <img src="<?php echo $Thumb_tab_filter; ?>" alt="Logo partenaires Modulus">
                 </a>
             <?php } ?>
@@ -52,22 +52,23 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 single-content-right">
+                <div class="col-md-2 col-sm-12">
+                    <div class="popup-gallery">
+                        <?php for ($n = 0; $n < 3; $n++) { ?>
+                            <div class="post-prev-img">
+                                <a href="/modulus/uploads/machine-merkur.png" class="gallery_products_Rbox">
+                                    <img src="/modulus/uploads/machine-merkur.png" alt="Produit Modulus">
+                                </a>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 single-content-right">
                     <div class="post-prev-img popup-gallery">
                         <a href="/modulus/uploads/machine-merkur.png" class="ThumbProductRbox">
                             <img src="/modulus/uploads/machine-merkur.png" alt="Produit Modulus">
                         </a>
-                    </div>
-                    <div class="row">
-                        <div class="popup-gallery">
-                            <?php for ($n = 0; $n < 3; $n++) { ?>
-                                <div class="col-xs-4 post-prev-img">
-                                    <a href="/modulus/uploads/machine-merkur.png" class="gallery_products_Rbox">
-                                        <img src="/modulus/uploads/machine-merkur.png" alt="Produit Modulus">
-                                    </a>
-                                </div>
-                            <?php } ?>
-                        </div>
+                        <img src="/modulus/uploads/logo-igt.png" alt="Logo du partenaire Modulus" class="miniature_brand miniature">
                     </div>
                 </div>
             </div>
@@ -75,6 +76,44 @@
 
     </section>
     <!-- END Section product -->
+
+    <!-- Section Video -->
+    <?php
+    $video_embeded = true;
+    ?>
+    <?php if ($video_embeded == true) : ?>
+        <section class="videoSingle">
+            <div class="container">
+                <iframe class="VideoSingle" width="100%" src="https://www.youtube.com/embed/o1EkruqEUsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    <?php endif; ?>
+    <!-- END Section Video -->
+
+    <!-- Section Produit related -->
+    <?php
+    $relatedProducts = true;
+    ?>
+    <?php if ($relatedProducts == true) : ?>
+        <section class="ProduitRelated">
+            <div class="container">
+                <h2>SIMILAR PRODUCTS</h2><br>
+                <div class="sliderRelatedProduct">
+                    <?php for ($k = 0; $k < 8; $k++) { ?>
+                        <div class="box_content_related">
+                            <div class="boxCarouselRelated">
+                                <a href="#">
+                                    <img src="/modulus/uploads/machine-alfastreet.png" alt="Produit Modulus">
+                                </a>
+                            </div>
+                            <h3>Crystal Curve™</h3>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+        </section>
+    <?php endif; ?>
+    <!-- END Section Produit related -->
 
 </div>
 

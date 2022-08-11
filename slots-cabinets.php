@@ -111,20 +111,20 @@
             ?>
 
             <li role="button" class="port-item mix <?php echo $brand_slug; ?> position-relative box_product">
-              <a href="portfolio-single1.html">
+              <a href="single-product.php">
                 <div class="port-img-overlay">
                   <img class="port-main-img" src="<?php echo $brand_thumb; ?>" alt="img">
                 </div>
+                <div class="port-overlay-cont">
+                  <div class="port-title-cont">
+                    <h3><?php echo $brand_title; ?></h3>
+                  </div>
+                  <div class="port-btn-cont">
+                    <i class="fa-solid fa-magnifying-glass"></i>&nbsp;<span><i class="fa-solid fa-arrow-right-long"></i></span>
+                  </div>
+                </div>
+                <img src="<?php echo $brand_miniature; ?>" alt="logo de la marque partenaire" class="miniature">
               </a>
-              <div class="port-overlay-cont">
-                <div class="port-title-cont">
-                  <h3><a href="portfolio-single1.html"><?php echo $brand_title; ?></a></h3>
-                </div>
-                <div class="port-btn-cont">
-                  <a href="single-product.php" class="permalink btn_learnMore"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-                </div>
-              </div>
-              <img src="<?php echo $brand_miniature; ?>" alt="logo de la marque partenaire" class="miniature">
             </li>
 
           <?php }
