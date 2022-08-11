@@ -68,7 +68,7 @@ $title_Breadcrumb = str_replace("-", " ", $bodyClass);
     <section class="title_breadCrumb">
         <div class="container">
             <div class="Name_Page">
-                <h1><?php echo $title_Breadcrumb; ?></h1>
+                <h1><?php echo $title_Breadcrumb; ?> <span id="titleBrandBreadcrumb"></span></h1>
             </div>
             <div class="breadcrumb">
                 <?php include $_SERVER['DOCUMENT_ROOT']."/modulus/incl/breadcrumb.php"; ?>

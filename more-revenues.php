@@ -76,7 +76,7 @@
 	<!-- More revenus from tables -->
 
 	<!-- LAST SECTION -->
-	<div class="page-section last_section_betterPlayer">
+	<div class="page-section last_section_betterPlayer box_col3_overlay_bottomPage">
 		<div class="container-fluid">
 			<div class="row">
 				<!-- Section GROW -->

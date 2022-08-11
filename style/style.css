@@ -136,8 +136,10 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
 .port-item:hover .port-overlay-cont, .main_All_slots_cabinets .lightbox-item:hover .port-overlay-cont {padding-top: 40px;padding-left: 15px;padding-right: 15px;}
 .main_All_slots_cabinets li.port-item.mix {border: solid 1px #dddddd;}
 .main_All_slots_cabinets img.miniature {position: absolute;bottom: 15px;left: 15px;max-height: 30px;width: auto;}
-.main_All_slots_cabinets .fa-magnifying-glass {color: red;}
+.main_All_slots_cabinets .fa-magnifying-glass {color: #da0000;}
 .main_All_slots_cabinets .sectionListsMachines {margin-bottom:15px;}
+.main_All_slots_cabinets .customDataHeroArchive img {max-height: 200px;}
+.main_All_slots_cabinets .thumbBrandArchive {text-align: center;}
 
 @media only screen and (min-width: 1025px){
     /* Menu Desktop */
@@ -198,6 +200,9 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
     .main_group .worldwide {height: 360px;margin-bottom: 0px;background-position: center !important;}
     .main_group h2.titleWorldwide {font-size: 30px;;padding-left: inherit;font-weight: 500;text-align: center;}
     .main_group section.Casino_TrustUs {margin: 0px auto 30px auto;}
+    /* Page Slots Archive */
+    .main_All_slots_cabinets .equal-height-short {height: auto;}
+    .itemsNavCat {padding-top: 50px !important;}
 }
 
 @media only screen and (max-width: 991px){
@@ -218,7 +223,7 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_home img.Logo_flecheTop {max-width: 100%;}
   .blockImgFlech {text-align: center;}
   .main_home .fes2-main-text-cont-left, .main_home .fes2-main-text-cont-right {padding: 80px 15px 15px 15px;}
-  .main_betterPlayer #the_road_ahead .equal-height-short:last-child, .main_more_revenue  #the_road_ahead .equal-height-short:last-child {margin-top: 30px;}
+  .main_betterPlayer #the_road_ahead .equal-height-short:last-child, .main_more_revenue  #the_road_ahead .equal-height-short:last-child, .main_All_slots_cabinets  #the_road_ahead .equal-height-short:last-child {margin-top: 30px;}
   section.title_breadCrumb .Name_Page h1 {font-size: 20px;}
   section.title_breadCrumb a {font-size: 12px;}
   section.title_breadCrumb>.container {height: auto;}
@@ -226,6 +231,7 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   section.title_breadCrumb .Name_Page {top: 9px;padding-right: 15px;}
   .main_more_revenue .fes2-main-text-cont-left {margin: 0 auto;padding: 50px 15px 15px 15px;}
   .main_more_revenue .equal-height {height: 390px;}
+  .main_All_slots_cabinets .itemsNavCat a {font-weight: 500;font-family: 'Oswald' !important;font-size: 18px;display: inline-block;vertical-align: bottom;width:13%;}
 }
 
 @media only screen and (max-width: 480px){
@@ -273,6 +279,10 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_group h2.titleWorldwide {font-size: 20px;}
   .main_group section.worldwide {background-size: cover;}
   .main_group h2.titleCasino_Trust.text-center {margin-bottom: 30px;font-size: 26px;}
+  /* Page Slots Archive */
+  .itemsNavCat {text-align: center !important;}
+  .main_All_slots_cabinets .itemsNavCat a {display: block;width: auto;margin-bottom: 20px;border-bottom: solid 1px;padding-bottom: 20px;font-weight: bold;font-size: 20px;}
+  .itemsNavCat a:last-child {border: none;}
 }
 
 /*/////////////////////// Theme haswell //////////////////////////// */
@@ -1768,11 +1778,12 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
       color: #101010;
       text-decoration: none;
   }
-  .port-filter a.active{
-      color: #101010;
-    /* border-color:#101010; */
-      cursor: default;
-  }
+  .port-filter a.active {
+    color: #101010;
+    border-bottom: solid #000000;
+    cursor: default;
+    padding-bottom: 15px;
+}
   .port-filter a.active:hover{
       color: #101010;
   }
@@ -1845,14 +1856,9 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   }
   
   @media only screen and (max-width: 1200px) {
-    .port-grid-5 .port-item {
-        width: 25%;
-    }
-    .port-text-cont .title-fs-45-wide {
-      font-size: 35px;
-      line-height: 47px;
-      letter-spacing: 5px;
-    }
+    .port-grid-5 .port-item {width: 25%;}
+    .port-text-cont .title-fs-45-wide {font-size: 35px;line-height: 47px;letter-spacing: 5px;}
+    .box_col3_overlay_bottomPage .fes2-main-text-cont-left {padding: 50px 15px 15px 50px;}
   }
   
   /* ==============================

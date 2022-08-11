@@ -12,7 +12,7 @@
   <section class="textL_imgR" id="the_road_ahead">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft equal-height-short">
+        <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft equal-height-short customDataHeroArchive">
           <h2 class="title_Modulus h2_SUBhero light">PRODUCTS<br><span class="bold h2_SUBhero2">SLOT CABINETS</span></h2>
           <div class="line-3-70-stick-B"></div>
         </div>
@@ -29,7 +29,7 @@
     <div class="white-bg">
       <div class="relative">
         <div class="port-filter text-center text-left-767 itemsNavCat">
-          <a href="#" class="filter active allProducts" data-filter="*" data-univers-color="#000000" data-univers-logo="" data-unives-title="">
+          <a href="#" class="filter active allProducts filterDynamiqueArchive" data-filter="*" data-univers-color="#000000" data-univers-logo="" data-unives-title="">
             ALL PRODUCTS
           </a>
           <?php
@@ -41,7 +41,7 @@
           )
           ?>
           <?php foreach ($tab_filter as $Brand_tab_filter => $Thumb_tab_filter) { ?>
-            <a href="#" class="filter" data-filter=".<?php echo $Brand_tab_filter; ?>" data-univers-color="#005CA8" data-univers-logo="/modulus/uploads/logo-igt.png" data-unives-title="igt">
+            <a href="#" class="filter filterDynamiqueArchive" data-filter=".<?php echo $Brand_tab_filter; ?>" data-univers-color="#005CA8" data-univers-logo="/modulus/uploads/machine-alfastreet.png" data-unives-title="igt">
               <img src="<?php echo $Thumb_tab_filter; ?>" alt="Logo partenaires Modulus">
             </a>
           <?php } ?>
@@ -136,7 +136,7 @@
   <!-- END List machines -->
 
   <!-- LAST SECTION -->
-  <div class="page-section last_section_betterPlayer">
+  <div class="page-section last_section_betterPlayer box_col3_overlay_bottomPage">
     <div class="container-fluid">
       <div class="row">
         <!-- Section GROW -->
