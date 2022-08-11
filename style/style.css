@@ -239,6 +239,8 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_betterPlayer .blockDesc_lastPlayer {padding: 40px 15px 15px 30px;}
   .main_betterPlayer #the_road_ahead .equal-height-short, .main_more_revenue #the_road_ahead .equal-height-short {height: auto;}
   .main_betterPlayer section#the_road_ahead, .main_more_revenue section#the_road_ahead {margin-bottom: 30px;}
+  .product-content .single-content-left {margin-bottom: 30px}
+  .single-product .boxCarouselRelated {height: auto;width: auto !important;}
 }
 
 @media only screen and (max-width: 768px){
@@ -255,6 +257,10 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_more_revenue .fes2-main-text-cont-left {margin: 0 auto;padding: 50px 15px 15px 15px;}
   .main_more_revenue .equal-height {height: 390px;}
   .main_All_slots_cabinets .itemsNavCat a {font-weight: 500;font-family: 'Oswald' !important;font-size: 18px;display: inline-block;vertical-align: bottom;width:13%;}
+  .single-product .content_visuelProducts {display: flex;flex-direction: column-reverse;}
+  .popup-gallery.galery_content {display: flex;flex-wrap: wrap;}
+  .single-product .single-content-right .post-prev-img {width: 90%;margin: 0px auto 30px auto;}
+  .single-product .VideoSingle {height: 400px;}
 }
 
 @media only screen and (max-width: 480px){
@@ -304,8 +310,14 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
   .main_group h2.titleCasino_Trust.text-center {margin-bottom: 30px;font-size: 26px;}
   /* Page Slots Archive */
   .itemsNavCat {text-align: center !important;}
-  .main_All_slots_cabinets .itemsNavCat a {display: block;width: auto;margin-bottom: 20px;border-bottom: solid 1px;padding-bottom: 20px;font-weight: bold;font-size: 20px;}
+  .main_All_slots_cabinets .itemsNavCat a, .single-product .itemsNavCat a {display: block;width: auto;margin-bottom: 20px;border-bottom: solid 1px;padding-bottom: 20px;font-weight: bold;font-size: 20px;}
   .itemsNavCat a:last-child {border: none;}
+  /* Single product page */
+  .single-product a.filter.allProducts {font-weight: bold;font-size: 20px;width: -webkit-fill-available;}
+  .single-product .navBarBrands { margin-top: 0px;margin-bottom: 0px;}
+  .single-product .single-content-right .post-prev-img {width: 100%;}
+  .single-product .VideoSingle {height: 200px;}
+  section.container.navBarBrands {display: none;}
 }
 
 /*/////////////////////// Theme haswell //////////////////////////// */

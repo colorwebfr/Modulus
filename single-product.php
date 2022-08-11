@@ -52,23 +52,25 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-12">
-                    <div class="popup-gallery">
-                        <?php for ($n = 0; $n < 3; $n++) { ?>
-                            <div class="post-prev-img">
-                                <a href="/modulus/uploads/machine-merkur.png" class="gallery_products_Rbox">
-                                    <img src="/modulus/uploads/machine-merkur.png" alt="Produit Modulus">
-                                </a>
-                            </div>
-                        <?php } ?>
+                <div class="content_visuelProducts">
+                    <div class="col-md-2 col-sm-4 col-xs-12">
+                        <div class="popup-gallery galery_content">
+                            <?php for ($n = 0; $n < 3; $n++) { ?>
+                                <div class="post-prev-img">
+                                    <a href="/modulus/uploads/machine-merkur.png" class="gallery_products_Rbox">
+                                        <img src="/modulus/uploads/machine-merkur.png" alt="Produit Modulus">
+                                    </a>
+                                </div>
+                            <?php } ?>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-12 single-content-right">
-                    <div class="post-prev-img popup-gallery">
-                        <a href="/modulus/uploads/machine-merkur.png" class="ThumbProductRbox">
-                            <img src="/modulus/uploads/machine-merkur.png" alt="Produit Modulus">
-                        </a>
-                        <img src="/modulus/uploads/logo-igt.png" alt="Logo du partenaire Modulus" class="miniature_brand miniature">
+                    <div class="col-md-4 col-sm-8 col-xs-12 single-content-right">
+                        <div class="post-prev-img popup-gallery">
+                            <a href="/modulus/uploads/machine-merkur.png" class="ThumbProductRbox">
+                                <img src="/modulus/uploads/machine-merkur.png" alt="Produit Modulus">
+                            </a>
+                            <img src="/modulus/uploads/logo-igt.png" alt="Logo du partenaire Modulus" class="miniature_brand miniature">
+                        </div>
                     </div>
                 </div>
             </div>
