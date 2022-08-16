@@ -209,7 +209,6 @@ section.title_breadCrumb .breadcrumb {float: right;position: relative;top: 26%;}
     section.title_breadCrumb {background: #000000;margin-top: 0;}
     header nav.nav_menu li.level_1, header nav.nav_menu li.level_1 a {color: #000000;}
     .arrow_submenu::after {content: " ";width: 10px;height: 10px;border-top: solid 2px #000000;border-left: solid 2px #000000;position: absolute;top: 12px;right: 15px;transition: .3s ease-in-out;transform: rotate(224deg);}
-    .arrow_submenu:hover::after {transform: rotate(45deg);}
     .arrow_submenu {position: relative;}
     header nav ul li.level_0 {border-bottom: solid 1px #000000;}
     header nav.nav_menu li.level_0, header nav.nav_menu li.level_0 a {line-height: 40px;}
