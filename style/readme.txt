@@ -1,1 +1,1 @@
-Fin de projet locale. La suite se déroulera sur un autre repository
+Fin de projet locale. La suite se déroulera sur un autre repository.
